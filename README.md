@@ -33,9 +33,9 @@ Simple anti-aliasing with 5x5 super sampling.
 ![ ](line_supersampling.png)
 ![ ](line_supersampling_zoom.png)
 
-## Anti-aliasing by signed distnace field
+## Anti-aliasing by signed distance field
 
-Using signed distnace field (SDF) of capsule shape to perform anti-aliasing with single sample per pixel.
+Using signed distance field (SDF) of capsule shape to perform anti-aliasing with single sample per pixel.
 
 ![line_sdf.c](line_sdf.c)
 
@@ -79,8 +79,8 @@ time ./line_sdfaabb
 ## Final notes
 
 1. These samples are only for illustrative purposes.
-2. Line clipping are not performed.
-3. The SDF AABB sample can be further optimized by tigther quaduraliteral bounds.
+2. Line clipping is not performed.
+3. The SDF AABB sample can be further optimized by tighter quadrilateral bounds.
 
 ## References
 
